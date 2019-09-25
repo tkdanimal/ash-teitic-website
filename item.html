@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+
+		<title>Ashton Kratky Portfolio</title>
+		<meta name="description" content="Ashton Kratky" />
+		<meta name="author" content="Ashton Kratky" />
+		<link rel="stylesheet" href="file_for_a_lady.css" />
+		<link rel="stylesheet" href="https://use.typekit.net/zwa0usn.css" />
+
+		<script src="https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js"></script>
+		<script src="js/blotter.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	</head>
+
+	<body class="page">
+		<!-- nav/ block and index -->
+
+		<div class="load-m">hi</div>
+		<div class="load-k">hi</div>
+
+		<header class="loaderr">
+			<div class="con">
+				<div class="logo"><img src="images/K_logo.png" /></div>
+				<div class="inner">
+					<div class="exit"></div>
+					<div class="hamburger link">
+						<div class="ham_top"></div>
+						<div class="ham_mid"></div>
+						<div class="ham_bot"></div>
+					</div>
+					<div class="line1 hover"></div>
+					<div class="line2 hover"></div>
+					<div class="line3 hover"></div>
+				</div>
+			</div>
+		</header>
+
+		<div id="back1" class="overlay__darken"></div>
+	
+
+		<div
+			id="back2"
+			class="item_background"
+			style="background-image: url(images/charisse-kenion-676G4N3_XQA-unsplash.jpg)"
+		></div>
+		<div id="scroll" class="scroll">
+			Scroll
+			<div class="scroll__line"></div>
+		</div>
+		
+		<div class="spacer"> </div>
+
+		<div class="item__contents">
+			<div  class="content__text blotter">
+			<span class="content__text-inner blotter">04</span>
+		</div>
+			<div class="item_text">
+				<h2 class="item__head">Glossy Boi's</h2>
+				
+				<div class="block">
+					<p class="year">2019</p>
+					<div class="line__item1"></div>
+					
+					
+					<p class="type">Packaging</p>
+					<div class="line__item1"></div>
+				</div>
+				
+				<div class="block">
+					<p class="client">School Project</p>
+					<div class="line__item"></div>
+
+					<p class="role">Designer</p>
+					<div class="line__item"></div>
+				</div>
+			</div>
+				</div>
+
+			<div class="item_process">
+			
+				
+			
+				<img />
+				<p class="breif">
+					Imade this super cool shit and then i took a shit. why did i
+					telll you that i have no idea, i jsut need to fill up this
+					content because i really like pinapple and think they give
+					me aids, wait what the fuck am i saying? i jsut need to fill
+					up this content because i really like pinapple and think
+					they give me aids, wait what the fuck am i saying?
+				</p>
+				<img />
+				<p class="process">
+					Imade this super cool shit and then i took a shit. why did i
+					telll you that i have no idea, i jsut need to fill up this
+					content because i really like pinapple and think they give
+					me aids, wait what the fuck am i saying? i jsut need to fill
+					up this content because i really like pinapple and think
+					they give me aids, wait what the fuck am i saying?
+				</p>
+				<img />
+				<p class="solution">
+					Imade this super cool shit and then i took a shit. why did i
+					telll you that i have no idea, i jsut need to fill up this
+					content because i really like pinapple and think they give
+					me aids, wait what the fuck am i saying? i jsut need to fill
+					up this content because i really like pinapple and think
+					they give me aids, wait what the fuck am i saying?
+				</p>
+			</div>
+			<div class="item_exp"></div>
+			<div class="item_gallery"></div>
+			<div class="next_item"></div>
+	
+		<!-- currsor that is very cool and woooooooobbbbblyyyyyyyy -->
+		<div class="cursor cursor--small mobile_hid"></div>
+		<canvas class="cursor cursor--canvas mobile_hid" resize></canvas>
+
+		<!-- my java script that works some how-->
+
+		<script>
+			window.onscroll = function() {
+				myFunction();
+			};
+
+			function myFunction() {
+				if (
+					document.body.scrollTop > 500 ||
+					document.documentElement.scrollTop > 500
+				) {
+					document.getElementById("back1").className =
+						"hid_animate overlay__darken";
+					document.getElementById("back2").className =
+						"hid_animate item_background";
+					document.getElementById("scroll").className =
+						"hid_animate";
+				} else {
+					document.getElementById("back1").className =
+						" overlay__darken";
+					document.getElementById("back2").className =
+						"item_background";
+					
+				}
+			}
+		</script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.12.0/paper-core.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/simplex-noise/2.4.0/simplex-noise.min.js"></script>
+		<script>
+			document
+				.querySelector(".hamburger")
+				.addEventListener("click", function() {
+					this.classList.toggle("active");
+				});
+		</script>
+
+		<script src="js/blotter.min.js"></script>
+		<script src="js/materials/liquidDistortMaterial.js"></script>
+		<script src="js/demo5.js"></script>
+
+		<script src="js/mouse.js"></script>
+
+		<div class="hidden">
+			<script type="text/javascript">
+				<!--//--><![CDATA[//><!--
+					var images = new Array()
+					function preload() {
+						for (i = 0; i < preload.arguments.length; i++) {
+							images[i] = new Image()
+							images[i].src = preload.arguments[i]
+						}
+					}
+					preload(
+						"http://domain.tld/gallery/image-001.jpg",
+						"http://domain.tld/gallery/image-002.jpg",
+						"http://domain.tld/gallery/image-003.jpg"
+					)
+				//--><!]]>
+			</script>
+		</div>
+
+		<div class="img"></div>
+	</body>
+</html>

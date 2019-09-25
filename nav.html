@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+
+<!-- 
+
+Hey if your looking at this that means that your a real G.  my name is cody i am the person who made this cool website.  you must think it is cool too if you took the time to inspect the elements of this website.    
+ 
+  
+   
+    
+     
+       -->
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+
+    <title>Ashton Kratky Portfolio</title>
+    <meta name="description" content="Ashton Kratky" />
+    <meta name="author" content="Ashton Kratky" />
+    <link rel="stylesheet" href="file_for_a_lady.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/zwa0usn.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js"></script>
+    <script src="js/blotter.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:900|IBM+Plex+Sans:500" rel="stylesheet">
+
+</head>
+
+<body class="page loaderr">
+    <!-- nav/ block and index -->
+
+    <header class="">
+        <div class="con">
+            <div class="logo"><img src="images/K_logo.png" /></div>
+            <div class="inner">
+                <div class="exit"></div>
+                <div class="hamburger link">
+                    <div class="ham_top"></div>
+                    <div class="ham_mid"></div>
+                    <div class="ham_bot"></div>
+                </div>
+                <div class="line1 hover"></div>
+                <div class="line2 hover"></div>
+                <div class="line3 hover"></div>
+            </div>
+        </div>
+
+        <subhead class="sub">
+            <a class="link"> Social </a>
+            <a class="link"> Resume </a>
+            <a class="link"> Contact </a>
+        </subhead>
+
+        <div class="con">
+            <div id="distortion-text" class="blotter__mob"></div>
+
+            <div class="work">
+                <h2 class="link nav"> <a href="work.html"> Work</a></h2>
+                <div id="hi" class="hidden__nav__work work__background__color1"></div>
+                <div class="hidden__nav__work work__background__color2 "></div>
+                <div class=" hidden__nav__work work__background__photo" style="background-image: url(images/charisse-kenion-676G4N3_XQA-unsplash.jpg)"></div>
+            </div>
+
+            <div class="about">
+                <h2 class="link nav"><a href="about.html">About</a></h2>  
+                <div class="hidden__nav__about  about__background__color1"></div>
+                <div class="hidden__nav__about  about__background__color2"></div>
+                <div class="hidden__nav__about  about__background__photo" style="background-image: url(images/bio.jpg)"></div>
+            </div>
+
+            <div class="content__text blotter"><span class="content__text-inner blotter">Kratky</span></div>
+
+
+            <div class="mission mobile_hid">
+                <h2> Graphic Designer </h2>
+
+                <p>
+                    My name is Ashton Kratky and i kick butt and take names, if
+                    i am not to busy being insecure about my work even though it
+                    is pretty good </p>
+               
+            </div>
+        </div>
+    </header>
+
+    <!-- currsor that is very cool and woooooooobbbbblyyyyyyyy -->
+    <div class="cursor cursor--small mobile_hid"></div>
+    <canvas class="cursor cursor--canvas mobile_hid" resize></canvas>
+
+    <!-- my java script that works some how-->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.12.0/paper-core.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/simplex-noise/2.4.0/simplex-noise.min.js"></script>
+    <script>
+        document.querySelector(".hamburger").addEventListener("click", function() {
+            this.classList.toggle("active");
+        });
+
+    </script>
+
+
+    <script src="js/blotter.min.js"></script>
+    <script src="js/materials/liquidDistortMaterial.js"></script>
+    <script src="js/demo2.js"></script>
+
+    <script src="js/mouse.js"></script>
+
+
+    <div class="hidden">
+        <script type="text/javascript">
+            <!--//--><![CDATA[//><!--
+            var images = new Array()
+
+            function preload() {
+                for (i = 0; i < preload.arguments.length; i++) {
+                    images[i] = new Image()
+                    images[i].src = preload.arguments[i]
+                }
+            }
+            preload(
+                "http://domain.tld/gallery/image-001.jpg",
+                "http://domain.tld/gallery/image-002.jpg",
+                "http://domain.tld/gallery/image-003.jpg"
+            )
+            //--><!]]>
+
+        </script>
+    </div>
+
+
+    <div class="img"> </div>
+</body>
+
+</html>
